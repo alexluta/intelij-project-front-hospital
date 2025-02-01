@@ -7,17 +7,14 @@ import { PacientComponent } from './pacient/pacient.component';
 import { SalonComponent } from './salon/salon.component';
 import { SectieComponent } from './sectie/sectie.component';
 import { TratamentComponent } from './tratament/tratament.component';
-import { UserComponent } from './user/user.component';
 
 export const routes: Routes = [
-  { path: '', redirectTo: '/asistenta', pathMatch: 'full' }, // ruta implicită
   { path: 'asistenta', component: AsistentaComponent },
   { path: 'medic', component: MedicComponent },
   { path: 'pacient', component: PacientComponent },
   { path: 'salon', component: SalonComponent },
   { path: 'sectie', component: SectieComponent },
   { path: 'tratament', component: TratamentComponent },
-  { path: 'user', component: UserComponent },
 ];
 
 
